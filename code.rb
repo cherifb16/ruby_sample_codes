@@ -57,5 +57,15 @@
   #   puts ""
   # end
 
+  #variable
+name1 = "John"
+name2 = "James"
+name3 = "Jack"
+
+#Maintenir dans le tableau
+names = ["John", "James","Jack"]
+puts names
+
+
 
 
