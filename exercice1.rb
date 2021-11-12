@@ -1,6 +1,6 @@
 # Exercice 1 Réponse
 
-# 1,2,4,5
+# 1,2,4,7
 #10 est un symbole. Il ressemble à une chaîne, mais en interne, il est traité comme un entier.
 
 
@@ -41,7 +41,7 @@
 
 # Exercice 6 Réponse
 
-# nom = "Taro Yamada"
+# nom = "undefined"
 # age = 18
 # puts nom
 # puts age
@@ -68,24 +68,24 @@
 
 # Exercice 9-1 Réponse
 
-# maison = {prix: "20 millions",localisation: "Tokyo",taille: "100 tsubo"}
+# maison = {prix: "20 millions",emplacement: "Tokyo",taille: "100 tsubo"}
 
 # p maison
 
 # Exercice 9-2 Réponse
 
-# p maison[:localisation]
+# p maison[:emplacement]
 
 # Exercice 10 Réponse
 
-# maison = [{prix: "20 millions", emplacement: "Tokyo", taille: "80 tsubo"}, 
-# {prix: "15 millions", emplacement: "Chiba", taille: "50 tsubo"}, 
-# { prix: "8 millions", emplacement: "Saitama", taille: "100 tsubo"}]
+maison = [{prix: "20 millions", emplacement: "Tokyo", taille: "80 tsubo"}, 
+{prix: "15 millions", emplacement: "Chiba", taille: "50 tsubo"}, 
+{ prix: "8 millions", emplacement: "Saitama", taille: "100 tsubo"}]
 
-# p maison[1][:emplacement]
-# p maison[0][:taille]
-# p maison[2][:prix]
-# p maison[2][:taille]
-
+p maison[1][:emplacement]
+p maison[0][:taille]
+p maison[2][:prix]
+p maison[2][:taille]
+p maison[1][:emplacement]
 
 
